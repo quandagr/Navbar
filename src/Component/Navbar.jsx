@@ -11,7 +11,7 @@ export const Navbar = () => {
          </main>
       <p className="text-pink-100/50 font-style-italic">Welcome to my website of the latest products at a discounted price.</p>
    
-       <NavLink className=" container mx-auto flex justify-start bg-rose-800 text-700 w-full p-4">
+       <nav className=" container mx-auto flex justify-start bg-rose-800 text-700 w-full p-4">
       <div className= "mx-auto flex justify-start text-700">
       <ul className='flex space-x-6 text-pink-100/50'>
         <li>
@@ -25,7 +25,7 @@ export const Navbar = () => {
           </li>
         </ul>
     </div>
-    </NavLink>
+    </nav>
     </div>
     
   )
